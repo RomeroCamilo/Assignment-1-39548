@@ -1,0 +1,17 @@
+body{
+    background-color: crimson;
+}
+
+.container{
+    text-align: center;
+}
+
+h1 {
+    color:white;
+}
+
+.buttons{
+    background-color:white;
+    color:black;
+    border-style: none;
+}
