@@ -8,7 +8,7 @@ body{
 
 h1 {
     color:white;
-    font-size: 40px;
+    font-size: 45px;
 }
 
 .buttons{
@@ -16,11 +16,14 @@ h1 {
     color:black;
     border-style: none;
     cursor: pointer;
-    padding: 5px;
+    padding: 15px;
     font-weight:bold;
     margin:15px;
     font-size: 16px;
     transition:opacity .2s;
+    width: 90px;
+    height: 50px;
+    border-radius: 45px;
 }
 
 .buttons:hover{
@@ -29,4 +32,17 @@ h1 {
 
 .buttons:active{
     opacity:.2;
+}
+
+.centerImg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 400px;
+    height: 250px;
+    margin: 10px 0;
 }
